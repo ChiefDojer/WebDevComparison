@@ -1,0 +1,15 @@
+{
+    "expo": {
+        "name": "react-native-app",
+        "slug": "react-native-app",
+        "version": "1.0.0",
+        "scheme": "react-native-app",
+        "web": {
+            "bundler": "metro",
+            "output": "static"
+        },
+        "plugins": [
+            "expo-router"
+        ]
+    }
+}

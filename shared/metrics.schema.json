@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "setupTimeMinutes": { "type": "number" },
+    "buildTimeSeconds": { "type": "number" },
+    "bundleSizeKB": { "type": "number" },
+    "linesOfCode": { "type": "number" },
+    "lighthouseScore": { "type": "number" }
+  },
+  "required": ["setupTimeMinutes", "linesOfCode"]
+}

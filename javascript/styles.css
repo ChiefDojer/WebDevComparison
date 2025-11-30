@@ -1,0 +1,4 @@
+/* Shared Styles */
+body { font-family: sans-serif; }
+nav { padding: 1rem; background: #eee; }
+nav a { margin-right: 1rem; }
