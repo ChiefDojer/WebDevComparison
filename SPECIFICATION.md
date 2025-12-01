@@ -12,6 +12,7 @@ Implement three simple apps — World Clock, Timer, and Countdown — with *iden
 - Angular
 - React (Web)
 - Next.js (Web - App Router)
+- Vue.js
 - React Native (Expo)
 
 Each implementation must live under its own folder (/javascript, /jquery, /typescript, /angular, /react, /nextjs, /react-native).
@@ -55,6 +56,7 @@ Compare frontend technologies by implementing the **same three small apps** (Wor
 | **Angular**              | ✅ SPA                           | Web             | Built with Angular CLI              |
 | **React**                | ✅ SPA                           | Web             | Built with Vite or CRA              |
 | **Next.js**              | ✅ SPA / SSR                     | Web             | Built with Next.js (App Router)     |
+| **Vue.js**               | ✅ SPA                           | Web             | Built with Vite                     |
 | **React Native (Expo)**  | ✅ Mobile Application            | iOS / Android   | Built via Expo CLI                  |
 
 ---
@@ -99,6 +101,7 @@ React Native will:
   /angular           # Angular SPA
   /react             # React SPA
   /nextjs            # Next.js App (SSR/RSC)
+  /vue               # Vue.js SPA
   /react-native      # Mobile app (Expo)
   /backend           # Backend API (Node.js) [Placeholder]
   /database          # Database Schemas [Placeholder]
@@ -341,7 +344,35 @@ React Native will:
 
 ---
 
-### 7️⃣ React Native (Mobile, Expo)
+### 7️⃣ Vue.js (Modern Framework)
+
+**Modern Progressive Framework via Vite.**
+
+```
+/vue
+  package.json
+  vite.config.ts
+  index.html
+  /src
+    main.ts                 # Entry point
+    App.vue                 # Root component
+    /router
+      index.ts              # Vue Router config
+    /views
+      WorldClock.vue
+      Timer.vue
+      Countdown.vue
+  README.md
+  metrics.json
+```
+
+> **Routing**: Vue Router.
+> **Run**: `npm run dev`
+> **Build**: `npm run build`
+
+---
+
+### 8️⃣ React Native (Mobile, Expo)
 
 **Expo app with 3 screens, navigation stack.**
 

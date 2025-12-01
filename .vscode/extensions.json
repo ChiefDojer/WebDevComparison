@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "editorconfig.editorconfig",
+        "xabikos.javascriptsnippets",
+        "yoavbls.pretty-ts-errors",
+        "donjayamanne.jquerysnippets",
+        "vue.volar",
+        "dsznajder.es7-react-js-snippets",
+        "angular.ng-template",
+        "msjsdiag.vscode-react-native"
+    ]
+}
