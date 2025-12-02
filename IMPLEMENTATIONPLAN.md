@@ -19,9 +19,10 @@
         "msjsdiag.vscode-react-native"
     ]
 ```
-
+6. HTML basic structure for each app (index.html)
 
 
 # Questions (Will be converted to Plan Items)
 
-1. TBD
+1. SPA for All Apps - Is it possible to use different Layout for each app?
+2. Add Unit Tests for all apps - Is it possible to add unit tests for all apps?
